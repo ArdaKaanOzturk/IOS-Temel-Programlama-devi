@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="TcF-ra-o8r">
+            <objects>
+                <viewController id="t1o-LL-vpR" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="PlR-NI-iZz">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="783"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Kebap" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nQX-qn-wRU">
+                                <rect key="frame" x="155" y="20" width="83" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ygl-ZK-EEp">
+                                <rect key="frame" x="16" y="20" width="76" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="gray" image="chevron.backward" catalog="system" title=" Geri"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="FPo-00-T4Y"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="kebap" translatesAutoresizingMaskIntoConstraints="NO" id="rKx-u8-1fM">
+                                <rect key="frame" x="-38" y="76" width="487" height="212"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="eAU-YM-HgW">
+                                <rect key="frame" x="8" y="313" width="385" height="260"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBrownColor"/>
+                                <mutableString key="text">Başlı başına bir kültür olan kebap, Türk mutfağı denilince akla ilk gelen yemeklerden biridir. Şiş üzerine dizilen kıyma veya etin ateşte pişirilmesiyle ortaya çıkan bu lezzet, şehirden şehire farklılık gösteren tariflere sahiptir.
+Asırlardır Anadolu topraklarında tüketilen kebap çeşitleri özellikle Doğu Akdeniz ve Güneydoğu Anadolu bölgelerinde yaygındır. Adana, Şanlıurfa ve Gaziantep, kebap hususunda ilk sıralardaki yerini daima korur. Değişik kebap pişirme ve sunma tarzlarıyla kendi aralarında tatlı bir rekabet oluşturan bu şehirler, kebap kültürünün anavatanı durumundadır.</mutableString>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RqJ-8V-0pS">
+                                <rect key="frame" x="164" y="644" width="58" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Tarif"/>
+                                <connections>
+                                    <segue destination="XmY-ci-yud" kind="show" id="4Y1-8I-96F"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Nge-b2-X5w"/>
+                        <color key="backgroundColor" systemColor="systemBrownColor"/>
+                        <color key="tintColor" name="AccentColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="P6w-vF-9OG"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xJP-1a-uSu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="130.53435114503816" y="802.81690140845069"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="5XP-Zg-V9R">
+            <objects>
+                <viewController id="vyo-2E-siZ" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="hzT-fc-R9y">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="783"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="94H-FA-7Ag">
+                                <rect key="frame" x="16" y="20" width="76" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="gray" image="chevron.backward" catalog="system" title=" Geri"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="EZT-KO-oPh"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Taco" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g54-OZ-ZC7">
+                                <rect key="frame" x="165" y="20" width="62" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="tako" translatesAutoresizingMaskIntoConstraints="NO" id="p5o-pF-omk">
+                                <rect key="frame" x="-194" y="77" width="780" height="264"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="SGf-kW-1Vj">
+                                <rect key="frame" x="8" y="379" width="376" height="154"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemYellowColor"/>
+                                <string key="text">Taco,geleneksel Meksika yemeğidir ve farklı şekillerde yapılabilir. Yapımında tortilla, et, peynir ve çeşitli sebzeler kullanılır. Ayrıca, yanında bazı garnitürler de tüketilebilir. Taco, Meksika'da Avrupalılar'ın gelişinden önce tüketilmeye başlanmış ve bu yemeğe "taco" adını İspanyollar vermiştir.</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2cx-pd-8Jb">
+                                <rect key="frame" x="167" y="656" width="58" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Tarif"/>
+                                <connections>
+                                    <segue destination="Wve-f0-WaN" kind="show" id="pU6-Li-oPM"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="gNU-di-n5l"/>
+                        <color key="backgroundColor" systemColor="systemYellowColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="JrG-jk-b72"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Qoi-Ub-HLx" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1609.9236641221373" y="802.81690140845069"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Thl-yq-3RZ">
+            <objects>
+                <viewController id="Wve-f0-WaN" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="KZa-sG-QeH">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="783"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ngP-Pj-LKW">
+                                <rect key="frame" x="16" y="20" width="76" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="gray" image="chevron.backward" catalog="system" title=" Geri"/>
+                                <connections>
+                                    <segue destination="vyo-2E-siZ" kind="show" id="HTS-5j-qqJ"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Taco Tarifi" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jiL-DS-0KC">
+                                <rect key="frame" x="131" y="20" width="130" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="MIe-Ha-jHX">
+                                <rect key="frame" x="16" y="134" width="361" height="373"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemYellowColor"/>
+                                <mutableString key="text">Soğanları yemeklik şekilde doğrayın. Sarımsakları ezin. Tavada zeytinyağını kızdırıp soğan ve sarımsakları pembeleşene kadar tavada kızartın. Kıymayı da ekleyip kavurun. Kaypa biberi ev jalepano biberini ince ince dilimleyip tavaya alın. Kıymanın rengi dönmeye başlayınca Meksika fasulyesini, konserve mısırı tavaya ilave edin. Karabiber ve tuzu da ekleyip biberler yumuşayana kadar pişirmeye devam edin.
+
+Tortillaları yağlı kağıt serili tepsiye dizin. Tavada hazırladığınız kıymalı harcı tortillaların üzerine yerleştirin. Rendelediğiniz cheddar peynirini de tortillaların üzerine serptikten sonra 200 dereceye ayarlı fırına tepsiyi dürün. Afiyet olsun.</mutableString>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="wIh-hs-frw"/>
+                        <color key="backgroundColor" systemColor="systemYellowColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Y8T-m8-0N8"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="N14-q5-uRs" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1610" y="1701"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="KdF-3W-cUD">
+            <objects>
+                <viewController id="XmY-ci-yud" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Xp1-Pd-T98">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="783"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Rb-dH-zm0">
+                                <rect key="frame" x="9" y="21" width="76" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="gray" image="chevron.backward" catalog="system" title=" Geri"/>
+                                <connections>
+                                    <segue destination="t1o-LL-vpR" kind="show" id="IA2-Wr-Fd8"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Kebap Tarifi" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vcv-S7-HNk">
+                                <rect key="frame" x="121" y="20" width="151" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Txm-0T-zRN">
+                                <rect key="frame" x="16" y="101" width="361" height="437"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBrownColor"/>
+                                <mutableString key="text">İlk olarak soğanı ve kapya biberi rondodan geçirin ya da ince ince doğrayın.
+Suyunu iyice sıkın. Kıymanın içerisine ekleyin.
+Tuz ve karabiberi de ekleyip güzelce yoğuralım ve dinlenmesi için dolaba kaldıralım.
+Bu sıra da lavaş için un hariç bütün malzemeleri derin bir kap içerisine alalım.
+Unu kontrollü ekleyip kıvamlı bir hamur yoğuralım yarım saat kadar mayalansın.
+Mayalanan hamuru 10-12 eşit parçaya bölelim.
+Her bir parçayı yuvarlak açıp tava da arkalı önlü pişirelim.
+Pişen lavaşları bir bez ya da örtüyle güzelce saralım.
+Dinlenen kıymayı yumruk büyüklüğünde parçalar alıp şişe geçirelim. Şiş yoksa tahta çubuklara geçirelim.
+Kebap şeklini verip döküm tava da yada normal tava da pişirelim.
+Lavaş ekmeği arasında domates, biber soğanla servis edelim. Deneyenlere afiyet olsun 🌿.</mutableString>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="DVJ-nK-KM7"/>
+                        <color key="backgroundColor" systemColor="systemBrownColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="dAa-sm-pgS"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Qiu-dj-ce3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="131" y="1701"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ArdaKaanOzturk_ios_vize_odevi" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="783"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Yemek Tarifleri" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Has-FA-wJ7">
+                                <rect key="frame" x="102" y="89" width="188" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f7c-Ut-o0s">
+                                <rect key="frame" x="96" y="407" width="194" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Kebap"/>
+                                <connections>
+                                    <segue destination="t1o-LL-vpR" kind="show" id="E6W-fW-Nrn"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hK5-Pp-djY">
+                                <rect key="frame" x="93" y="578" width="194" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Taco"/>
+                                <connections>
+                                    <segue destination="vyo-2E-siZ" kind="show" id="5z2-Xg-WIe"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="kebab_icon" translatesAutoresizingMaskIntoConstraints="NO" id="lCl-vD-MVO">
+                                <rect key="frame" x="133" y="336" width="115" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="taco_icon" translatesAutoresizingMaskIntoConstraints="NO" id="2ZI-tD-dMV">
+                                <rect key="frame" x="125" y="511" width="129" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KXx-6q-RLa">
+                                <rect key="frame" x="96" y="239" width="194" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Pizza"/>
+                                <connections>
+                                    <segue destination="0oM-1s-CpC" kind="show" id="Bce-Iz-Kub"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pizza_icon" translatesAutoresizingMaskIntoConstraints="NO" id="ihT-jt-PyK">
+                                <rect key="frame" x="161" y="169" width="59" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemGrayColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="9es-DD-Kvl"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="130.53435114503816" y="-27.464788732394368"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="jnS-vu-M7u">
+            <objects>
+                <viewController id="0oM-1s-CpC" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="bR3-AQ-0G9">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="783"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pizza" translatesAutoresizingMaskIntoConstraints="NO" id="5nI-Wp-ANN">
+                                <rect key="frame" x="-67" y="82" width="527" height="280"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Pizza" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OC6-KF-UGV">
+                                <rect key="frame" x="162" y="20" width="69" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="otJ-N6-4mu">
+                                <rect key="frame" x="16" y="20" width="76" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="gray" image="chevron.backward" catalog="system" title=" Geri"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="ElG-CY-yb1"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="sgc-fS-1Ts">
+                                <rect key="frame" x="7" y="385" width="377" height="289"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                                <mutableString key="text">Pizza, İtalyan kökenli bir yemek türüdür ve dünya genelinde oldukça popülerdir. Kendine özgü hamurla yapılan pizza, üzerine çeşitli malzemelerin eklenmesiyle hazırlanır. Genellikle fırında pişirilen pizza, sıcak servis edilir.
+
+Pizzanın kökeni, antik çağlara kadar uzanmaktadır. İlk olarak Eski Roma’da, focaccia adı verilen bir hamur üzerine zeytinyağı ve baharat serpilerek yapılan bir yemek olarak ortaya çıkmıştır. Daha sonra Napoli’de, pizza olarak bilinen bu yemek, farklı malzemelerin eklenmesiyle zenginleştirilmiştir.</mutableString>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j4y-6A-dKa">
+                                <rect key="frame" x="161" y="682" width="69" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Tarif"/>
+                                <connections>
+                                    <segue destination="4IT-PN-Ouo" kind="show" id="1wr-Xe-0St"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="0oI-I2-Rkc"/>
+                        <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="o5i-Vd-ntr"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sfQ-9X-vM2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1440" y="826"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="k2w-FB-1dk">
+            <objects>
+                <viewController id="4IT-PN-Ouo" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="r95-SX-msq">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="783"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Pizza Tarifi" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TDq-MQ-4Xd">
+                                <rect key="frame" x="128" y="20" width="137" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lsa-HM-xvM">
+                                <rect key="frame" x="16" y="21" width="76" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="gray" image="chevron.backward" catalog="system" title=" Geri"/>
+                                <connections>
+                                    <segue destination="0oM-1s-CpC" kind="show" id="HBd-x3-iT9"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="JYP-7O-B9p">
+                                <rect key="frame" x="8" y="68" width="377" height="647"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                                <mutableString key="text">İlk önce mayayı küçük bir kabın içine koyup çok az miktarda su ile karıştırıp eritin.
+Unu yoğurma kabınıza döküp, ortasını havuz şeklinde açın.
+Kenarlara bir miktar tuz serpip (ortaya tuz dökmeyin) havuzun ortasına suda erittiğiniz maya karışımını dökün.
+Ardından sıvı yağınızı da ilave ederek yoğurmaya başlayın.
+Yoğurma işlemi bitince, üzerini kapatıp 10 dakika kadar mayalandırın. Bu arada sosu hazırlayabilirsiniz…
+Sos için; malzeme listesine göre bir kaseye salçayı dökün, ardından sıvı yağ, pul biber, kara biber, eğer isterseniz hafif nane, kimyon da katabilirsiniz. Tuzunuzu da ilave edip güzelce karıştırın…
+Üst malzemelerinizi de doğradıktan sonra, mayalanmış hamuru merdane ile açıp tepsinize yerleştirin.
+Yerleştirmeden önce tepsinin altını hafif yağlayabilir veya hazır yağlı kağıtlardan kullanabilirsiniz.
+Bu şekilde açtığınız hamuru 180 derecelik fırına sürüp 5 dakika ön pişirme yapın, bu pizzanın daha lezzetli olmasını sağlayacak.
+Fırından çıkan hamurun üzerine sosunuzu döküp yayın.
+Daha sonra rendelenmiş kaşar peyniri, sucuk, mantar kısaca nasıl seviyorsanız doğranmış malzemelerinizi ekleyip 180 derecelik fırına tekrar atıyoruz. Üst malzemeler piştiğinde pizzanız servise hazırdır.
+Afiyet olsun :)</mutableString>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Uft-gv-ggR"/>
+                        <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="eL4-W3-qid"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Try-2J-IqN" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1440" y="1702"/>
+        </scene>
+    </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="1wr-Xe-0St"/>
+        <segue reference="4Y1-8I-96F"/>
+        <segue reference="pU6-Li-oPM"/>
+        <segue reference="HBd-x3-iT9"/>
+        <segue reference="EZT-KO-oPh"/>
+        <segue reference="HTS-5j-qqJ"/>
+        <segue reference="IA2-Wr-Fd8"/>
+    </inferredMetricsTieBreakers>
+    <resources>
+        <image name="chevron.backward" catalog="system" width="97" height="128"/>
+        <image name="kebab_icon" width="225" height="225"/>
+        <image name="kebap" width="309" height="163"/>
+        <image name="pizza" width="266" height="190"/>
+        <image name="pizza_icon" width="297" height="170"/>
+        <image name="taco_icon" width="225" height="225"/>
+        <image name="tako" width="272" height="185"/>
+        <namedColor name="AccentColor">
+            <color red="0.0" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="labelColor">
+            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemBrownColor">
+            <color red="0.63529411764705879" green="0.51764705882352946" blue="0.36862745098039218" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemGrayColor">
+            <color red="0.55686274509803924" green="0.55686274509803924" blue="0.57647058823529407" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemOrangeColor">
+            <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemYellowColor">
+            <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
